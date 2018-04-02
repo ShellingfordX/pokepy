@@ -1,13 +1,16 @@
-
 '''
 Usage:
     pokepy (pokemon | type | ability) --id=ID
+
 Options:
     -i --id=ID                # specify the id of the pokemon, type or ability
     -h --help                 # Show this help
 '''
 
+
 import requests
+
+
 POKEAPI = 'https://pokeapi.co/api/v2/{path}/{id}'
 
 
